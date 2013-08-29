@@ -14,7 +14,7 @@
 
 (function ( window, factory ) {
 
-	if ( typeof module !== "undefined" && typeof module.exports !== "undefined" ) {
+	if ( typeof module !== "undefined" && module.exports ) {
 		// Expose a jQuery-making factory as module.exports in loaders that implement the Node
 		// module pattern (including browserify).
 		// This accentuates the need for a real window in the environment
